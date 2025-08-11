@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="606b6761-cefc-4a04-99de-547c95af8fcd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utilities.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/ContractsInterfaces/HeroPresenter/IHeroStatsPresenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/ContractsInterfaces/HeroPresenter/IHero.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/ContractsInterfaces/HeroPresenter/IHeroView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/ContractsInterfaces/HeroPresenter/IHeroPresenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/ContractsInterfaces/ExperienceService/IExperienceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/ContractsInterfaces/Hero/IHeroLevelUpUseCase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCase/HeroUseCases/HeroLevelUpUseCase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installers/HeroInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroData/HeroConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/ContractsInterfaces/Hero/IHeroStatsPresenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroData/HeroData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroData/HeroStartConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroData/HeroLvlUpConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/Application/Views/HeroInfoView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utilities/ExperienceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCase/Factory/HeroStatsPresenterFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/ContractsInterfaces/Hero/IHero.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroData/HeroStatsData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroData/LvlUpConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroData/ExperienceLvlUpConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utilities/HeroExperienceBuyer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/Application/Presenters/HeroStatsPresenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/Application/Presenters/HeroStatsPresenterFactory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCase/Helper/HeroHelper.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCase/HeroUseCases/HeroUseCase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/Application/Views/HeroStatsView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Configs/LevelUpConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Infrastructure/Installer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/IHeroModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Infrastructure/ExperienceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/HeroPresenter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCases/UpgradeHeroUsecase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/UI/HeroView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installers/Installer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Domain.asmdef" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="318FlMKzgua6s207NmPf2LLxVkn" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -24,5 +80,14 @@
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
