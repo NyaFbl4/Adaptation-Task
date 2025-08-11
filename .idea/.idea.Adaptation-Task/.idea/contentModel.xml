@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\lomok\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\lomok\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Adaptation-Task.-737014781.00" t="ExcludeRecursive" />
+    <e p="D:\!PROEKTbI\Adaptation-Task" t="IncludeRecursive">
+      <e p="Adaptation-Task.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Packages" t="Include">
+          <e p="Microsoft.Bcl.AsyncInterfaces.6.0.0" t="Include">
+            <e p="lib" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="Microsoft.Bcl.AsyncInterfaces.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+          </e>
+          <e p="Microsoft.Bcl.TimeProvider.8.0.0" t="Include">
+            <e p="lib" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="Microsoft.Bcl.TimeProvider.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+          </e>
+          <e p="NuGet" t="Include">
+            <e p="Editor" t="Include">
+              <e p="NuGetForUnity.PluginAPI.xml" t="Include" />
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="MessagePipe" t="Include">
+              <e p="Editor" t="Include">
+                <e p="DiagnosticsHelper.cs" t="Include" />
+                <e p="MessagePipe.Editor.asmdef" t="Include" />
+                <e p="MessagePipeDiagnosticsInfoTreeView.cs" t="Include" />
+                <e p="MessagePipeDiagnosticsInfoWindow.cs" t="Include" />
+                <e p="SplitterGUILayout.cs" t="Include" />
+              </e>
+              <e p="package.json" t="Include" />
+              <e p="Runtime" t="Include">
+                <e p="AsyncMessageBroker.cs" t="Include" />
+                <e p="AsyncMessageBroker_Key.cs" t="Include" />
+                <e p="AsyncRequestHandler.cs" t="Include" />
+                <e p="AttributeFilterProvider.cs" t="Include" />
+                <e p="DisposableBag.cs" t="Include" />
+                <e p="Disposables.cs" t="Include" />
+                <e p="DistributedSubscriberExtensions.cs" t="Include" />
+                <e p="EventFactory.cs" t="Include" />
+                <e p="FilterAttachedAsyncMessageHandlerFactory.cs" t="Include" />
+                <e p="FilterAttachedAsyncRequestHandlerFactory.cs" t="Include" />
+                <e p="FilterAttachedMessageHandlerFactory.cs" t="Include" />
+                <e p="FilterAttachedRequestHandlerFactory.cs" t="Include" />
+                <e p="GlobalMessagePipe.cs" t="Include" />
+                <e p="IDistributedPubSub.cs" t="Include" />
+                <e p="IgnoreAutoRegistration.cs" t="Include" />
+                <e p="InMemoryDistributedPubSub.cs" t="Include" />
+                <e p="Internal" t="Include">
+                  <e p="ArrayUtil.cs" t="Include" />
+                  <e p="AsyncHandlerWhenAll.AwaiterNode.cs" t="Include" />
+                  <e p="AsyncHandlerWhenAll.cs" t="Include" />
+                  <e p="AsyncRequestHandlerWhenAll.Awaiter.cs" t="Include" />
+                  <e p="AsyncRequestHandlerWhenAll.cs" t="Include" />
+                  <e p="FastQueue.cs" t="Include" />
+                  <e p="FilterDefinition.cs" t="Include" />
+                  <e p="FreeList.cs" t="Include" />
+                  <e p="PoolStack.cs" t="Include" />
+                  <e p="Preserve.cs" t="Include" />
+                  <e p="TaskExtensions.cs" t="Include" />
+                  <e p="TypeCollector.cs" t="Include" />
+                  <e p="TypeExtensions.cs" t="Include" />
+                </e>
+                <e p="IPublisherSubscriber.cs" t="Include" />
+                <e p="IRequestHandler.cs" t="Include" />
+                <e p="MessageBroker.cs" t="Include" />
+                <e p="MessageBroker_Key.cs" t="Include" />
+                <e p="MessagePipe.asmdef" t="Include" />
+                <e p="MessagePipeDiagnosticsInfo.cs" t="Include" />
+                <e p="MessagePipeFilter.cs" t="Include" />
+                <e p="MessagePipeOptions.cs" t="Include" />
+                <e p="PredicateFilter.cs" t="Include" />
+                <e p="RequestHandler.cs" t="Include" />
+                <e p="ServiceCollectionExtensions.cs" t="Include" />
+                <e p="SubscriberExtensions.AsAsyncEnumerable.cs" t="Include" />
+                <e p="SubscriberExtensions.AsObservable.cs" t="Include" />
+                <e p="SubscriberExtensions.cs" t="Include" />
+                <e p="SubscriberExtensions.FirstAsync.cs" t="Include" />
+                <e p="Unity" t="Include">
+                  <e p="BuiltinContainerBuilder.cs" t="Include" />
+                  <e p="DependencyInjectionShims.cs" t="Include" />
+                  <e p="InternalVisibleTo.cs" t="Include" />
+                  <e p="TaskShims.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="MessagePipe.VContainer" t="Include">
+              <e p="package.json" t="Include" />
+              <e p="Runtime" t="Include">
+                <e p="ContainerBuilderExtensions.cs" t="Include" />
+                <e p="MessagePipe.VContainer.asmdef" t="Include" />
+                <e p="TypeProxy.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="R3.1.3.0" t="Include">
+            <e p="lib" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="R3.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="System.ComponentModel.Annotations.5.0.0" t="Include">
+            <e p="lib" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="System.ComponentModel.Annotations.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+            <e p="version.txt" t="Include" />
+          </e>
+          <e p="System.Runtime.CompilerServices.Unsafe.6.0.0" t="Include">
+            <e p="lib" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="System.Runtime.CompilerServices.Unsafe.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+          </e>
+          <e p="System.Threading.Channels.8.0.0" t="Include">
+            <e p="lib" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="System.Threading.Channels.xml" t="Include" />
+              </e>
+            </e>
+            <e p="useSharedDesignerContext.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Project" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="test.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="MessagePipe.csproj" t="IncludeRecursive" />
+      <e p="MessagePipe.Editor.csproj" t="IncludeRecursive" />
+      <e p="MessagePipe.VContainer.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
