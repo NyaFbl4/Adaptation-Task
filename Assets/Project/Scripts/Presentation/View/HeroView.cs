@@ -4,15 +4,16 @@ using UnityEngine.UIElements;
 
 namespace Presentation.UI
 {
-    public sealed class HeroView : MonoBehaviour
+    [RequireComponent(typeof(UIDocument))]
+    public sealed class HeroView : MonoBehaviour, IHeroStatsView
     {
-        [SerializeField] private UIDocument _uiDocument;
-
+        private UIDocument _uiDocument;
+        private VisualElement _root;
+        
         private Subject<Unit> _buttonClickSubject = new();
         public Observable<Unit> OnButtonClicked => _buttonClickSubject;
         
         private Button _levelUpButton;
-        
         private Label _levelTextLabel;
         private Label _healthTextLabel;
         private Label _attackTextLabel;
@@ -20,16 +21,14 @@ namespace Presentation.UI
 
         private void Awake()
         {
-            if (_uiDocument == null)
-                _uiDocument = GetComponent<UIDocument>();
+            _uiDocument = GetComponent<UIDocument>();
+            _root = _uiDocument.rootVisualElement;
 
-            var root = _uiDocument.rootVisualElement;
+            _levelUpButton = _root.Q<Button>("ButtonLevelUp");
 
-            _levelUpButton = root.Q<Button>("ButtonLevelUp");
-
-            _levelTextLabel  = root.Q<Label>("LevelTextInfo");
-            _healthTextLabel = root.Q<Label>("HealthTextInfo");
-            _attackTextLabel = root.Q<Label>("AttackTextInfo");
+            _levelTextLabel  = _root.Q<Label>("LevelTextInfo");
+            _healthTextLabel = _root.Q<Label>("HealthTextInfo");
+            _attackTextLabel = _root.Q<Label>("AttackTextInfo");
 
             _levelUpButton?.RegisterCallback<ClickEvent>(_ => 
             {

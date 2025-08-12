@@ -1579,6 +1579,8 @@ MonoBehaviour:
     TypeName: 
   autoRun: 1
   autoInjectGameObjects: []
+  _startHeroConfig: {fileID: 11400000, guid: 37d5d358beffb704b81a9badaf56f1b3, type: 2}
+  _levelUpConfig: {fileID: 11400000, guid: 79b52e170ba7dab4293260c89d645e91, type: 2}
   _heroView: {fileID: 378744228}
 --- !u!4 &1790672064
 Transform:

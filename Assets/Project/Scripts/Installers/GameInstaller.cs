@@ -23,7 +23,6 @@ namespace Project.Scripts.Infrastructure
             HeroRegister(builder);
             ViewsRegister(builder);
         }
-        
 
         private void HeroRegister(IContainerBuilder builder)
         {
@@ -37,15 +36,12 @@ namespace Project.Scripts.Infrastructure
             builder.RegisterInstance(_levelUpConfig).AsSelf();
             
             builder.Register<HeroUsecase>(Lifetime.Scoped).AsSelf();
-            
-             builder.RegisterEntryPoint<HeroPresenter>();
-            
-            
+            builder.RegisterEntryPoint<HeroPresenter>();
         }
 
         private void ViewsRegister(IContainerBuilder builder)
         {
-            builder.RegisterComponent(_heroView);
+            builder.RegisterComponent(_heroView).As<IHeroStatsView>();
         }
     }
 }

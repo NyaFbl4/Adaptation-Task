@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7398346a3e4bd6bf01c188339d8882, type: 3}
   m_Name: LevelUpConfig
   m_EditorClassIdentifier: 
-  _healthUp: 0
-  _attackUp: 0
+  _healthUp: 25
+  _attackUp: 5

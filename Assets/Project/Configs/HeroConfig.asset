@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8709c9feb3394544851918b26dbfa4c1, type: 3}
   m_Name: HeroConfig
   m_EditorClassIdentifier: 
-  _startLevel: 0
-  _startHealth: 0
-  _startAttack: 0
+  _startLevel: 1
+  _startHealth: 100
+  _startAttack: 25

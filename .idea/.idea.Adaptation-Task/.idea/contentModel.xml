@@ -154,12 +154,14 @@
             </e>
             <e p="Presentation" t="Include">
               <e p="HeroPresenter.cs" t="Include" />
-              <e p="UI" t="Include">
+              <e p="View" t="Include">
                 <e p="HeroView.cs" t="Include" />
+                <e p="IHeroStatsView.cs" t="Include" />
               </e>
             </e>
             <e p="UseCases" t="Include">
               <e p="HeroUsecase.cs" t="Include" />
+              <e p="IHeroUsecase.cs" t="Include" />
             </e>
           </e>
           <e p="UIToolkit" t="Include">
