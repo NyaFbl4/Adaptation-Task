@@ -168,6 +168,7 @@
           </e>
           <e p="UIToolkit" t="Include">
             <e p="UI.uxml" t="Include" />
+            <e p="UIStyle.uss" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

@@ -1,0 +1,15 @@
+.textElement {
+    -unity-text-align: upper-center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    min-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+.unity-text-element {
+    font-size: 20px;
+    -unity-font-style: bold;
+}
