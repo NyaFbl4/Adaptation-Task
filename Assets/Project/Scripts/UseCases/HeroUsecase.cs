@@ -1,8 +1,8 @@
 ﻿using Infrastructure.Configs;
-using Project.Scripts.Domain.Models;
+using Domain.Models;
 using VContainer;
 
-namespace Project.Scripts.UseCases
+namespace UseCases
 {
     public sealed class HeroUsecase : IHeroUsecase
     {

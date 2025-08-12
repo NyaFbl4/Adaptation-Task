@@ -140,6 +140,7 @@
         <e p="Project" t="Include">
           <e p="Scripts" t="Include">
             <e p="Domain" t="Include">
+              <e p="Domain.asmdef" t="Include" />
               <e p="Models" t="Include">
                 <e p="HeroModel.cs" t="Include" />
                 <e p="IHeroModel.cs" t="Include" />
@@ -150,12 +151,15 @@
                 <e p="LevelUpConfig.cs" t="Include" />
                 <e p="StartHeroConfig.cs" t="Include" />
               </e>
+              <e p="Infrastructure.asmdef" t="Include" />
             </e>
             <e p="Installers" t="Include">
               <e p="GameInstaller.cs" t="Include" />
+              <e p="Installers.asmdef" t="Include" />
             </e>
             <e p="Presentation" t="Include">
               <e p="HeroPresenter.cs" t="Include" />
+              <e p="Presentation.asmdef" t="Include" />
               <e p="View" t="Include">
                 <e p="HeroView.cs" t="Include" />
                 <e p="IHeroStatsView.cs" t="Include" />
@@ -164,6 +168,7 @@
             <e p="UseCases" t="Include">
               <e p="HeroUsecase.cs" t="Include" />
               <e p="IHeroUsecase.cs" t="Include" />
+              <e p="UseCases.asmdef" t="Include" />
             </e>
           </e>
           <e p="UIToolkit" t="Include">
@@ -263,12 +268,17 @@
           <e p="NewUXMLTemplate.uxml" t="Include" />
         </e>
       </e>
+      <e p="Infrastructure.csproj" t="IncludeRecursive" />
+      <e p="Installers.csproj" t="IncludeRecursive" />
       <e p="MessagePipe.csproj" t="IncludeRecursive" />
       <e p="MessagePipe.Editor.csproj" t="IncludeRecursive" />
       <e p="MessagePipe.VContainer.csproj" t="IncludeRecursive" />
+      <e p="NAME.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
+      <e p="Presentation.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="UseCases.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

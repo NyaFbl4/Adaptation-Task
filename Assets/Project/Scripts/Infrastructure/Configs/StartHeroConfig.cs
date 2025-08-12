@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Project.Scripts.Domain.Configs
+namespace Infrastructure.Configs
 {
     [CreateAssetMenu(fileName = "StartHeroConfig", menuName = "Configs/StartHeroConfig")]
     public class StartHeroConfig : ScriptableObject

@@ -1,8 +1,8 @@
 ﻿using System;
 using MessagePipe;
 using Presentation.UI;
-using Project.Scripts.Domain.Models;
-using Project.Scripts.UseCases;
+using Domain.Models;
+using UseCases;
 using R3;
 using VContainer;
 using VContainer.Unity;

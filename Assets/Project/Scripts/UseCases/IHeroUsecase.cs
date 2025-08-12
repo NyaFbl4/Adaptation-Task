@@ -1,4 +1,4 @@
-﻿namespace Project.Scripts.UseCases
+﻿namespace UseCases
 {
     public interface IHeroUsecase
     {

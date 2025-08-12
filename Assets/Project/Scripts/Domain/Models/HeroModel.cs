@@ -1,7 +1,7 @@
 ﻿using System;
 using R3;
 
-namespace Project.Scripts.Domain.Models
+namespace Domain.Models
 {
     public class HeroModel : IHeroModel, IDisposable
     {

@@ -1,6 +1,6 @@
 ﻿using R3;
 
-namespace Project.Scripts.Domain.Models
+namespace Domain.Models
 {
     public interface IHeroModel
     {

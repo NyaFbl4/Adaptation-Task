@@ -1,16 +1,15 @@
 ﻿using Infrastructure.Configs;
 using MessagePipe;
 using Presentation.UI;
-using Project.Scripts.Domain.Configs;
-using Project.Scripts.Domain.Models;
+using Domain.Models;
 using Project.Scripts.Presentation;
-using Project.Scripts.UseCases;
+using UseCases;
 using R3;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
 
-namespace Project.Scripts.Infrastructure
+namespace Infrastructure
 {
     public class GameInstaller : LifetimeScope
     {
