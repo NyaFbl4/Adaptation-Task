@@ -140,13 +140,15 @@
         <e p="Project" t="Include">
           <e p="Scripts" t="Include">
             <e p="Domain" t="Include">
-              <e p="Configs" t="Include">
-                <e p="LevelUpConfig.cs" t="Include" />
-                <e p="StartHeroConfig.cs" t="Include" />
-              </e>
               <e p="Models" t="Include">
                 <e p="HeroModel.cs" t="Include" />
                 <e p="IHeroModel.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Infrastructure" t="Include">
+              <e p="Configs" t="Include">
+                <e p="LevelUpConfig.cs" t="Include" />
+                <e p="StartHeroConfig.cs" t="Include" />
               </e>
             </e>
             <e p="Installers" t="Include">
@@ -165,7 +167,7 @@
             </e>
           </e>
           <e p="UIToolkit" t="Include">
-            <e p="NewUXMLTemplate.uxml" t="Include" />
+            <e p="UI.uxml" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Project.Scripts.Domain.Configs
+namespace Infrastructure.Configs
 {
     [CreateAssetMenu(fileName = "LevelUpConfig", menuName = "Configs/LevelUpConfig")]
     public class LevelUpConfig : ScriptableObject

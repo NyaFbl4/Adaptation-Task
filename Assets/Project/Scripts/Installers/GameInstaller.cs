@@ -1,4 +1,5 @@
-﻿using MessagePipe;
+﻿using Infrastructure.Configs;
+using MessagePipe;
 using Presentation.UI;
 using Project.Scripts.Domain.Configs;
 using Project.Scripts.Domain.Models;

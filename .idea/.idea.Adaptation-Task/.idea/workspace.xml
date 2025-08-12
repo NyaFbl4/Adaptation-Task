@@ -51,10 +51,10 @@
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCases/HeroUsecase.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Configs/StartHeroConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installers/GameInstaller.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/HeroPresenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/View/IHeroStatsView.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/View/HeroView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/HeroPresenter.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="318FlMKzgua6s207NmPf2LLxVkn" />

@@ -1,4 +1,4 @@
-﻿using Project.Scripts.Domain.Configs;
+﻿using Infrastructure.Configs;
 using Project.Scripts.Domain.Models;
 using VContainer;
 
