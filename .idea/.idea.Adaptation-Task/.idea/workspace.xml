@@ -39,14 +39,18 @@
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/Application/Views/HeroStatsView.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Configs/LevelUpConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Infrastructure/Installer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/IHeroModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Domain.asmdef" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installers/Installer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Configs/HeroConfug.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCases/UpgradeHeroUsecase.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Infrastructure/ExperienceManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Configs/HeroConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/IHeroModel.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/HeroPresenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Models/HeroModel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCases/UpgradeHeroUsecase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/UseCases/HeroUsecase.cs" />
       <option value="$PROJECT_DIR$/Assets/Project/Scripts/Presentation/UI/HeroView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installers/Installer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Domain/Domain.asmdef" />
+      <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installers/GameInstaller.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="318FlMKzgua6s207NmPf2LLxVkn" />

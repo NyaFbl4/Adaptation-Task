@@ -142,31 +142,24 @@
             <e p="Domain" t="Include">
               <e p="Configs" t="Include">
                 <e p="LevelUpConfig.cs" t="Include" />
+                <e p="StartHeroConfig.cs" t="Include" />
               </e>
-              <e p="Domain.asmdef" t="Include" />
               <e p="Models" t="Include">
                 <e p="HeroModel.cs" t="Include" />
                 <e p="IHeroModel.cs" t="Include" />
               </e>
             </e>
-            <e p="Infrastructure" t="Include">
-              <e p="ExperienceManager.cs" t="Include" />
-              <e p="Infrastructure.asmdef" t="Include" />
-            </e>
             <e p="Installers" t="Include">
-              <e p="Installer.cs" t="Include" />
-              <e p="Installers.asmdef" t="Include" />
+              <e p="GameInstaller.cs" t="Include" />
             </e>
             <e p="Presentation" t="Include">
               <e p="HeroPresenter.cs" t="Include" />
-              <e p="Presentation.asmdef" t="Include" />
               <e p="UI" t="Include">
                 <e p="HeroView.cs" t="Include" />
               </e>
             </e>
             <e p="UseCases" t="Include">
-              <e p="UpgradeHeroUsecase.cs" t="Include" />
-              <e p="UseCases.asmdef" t="Include" />
+              <e p="HeroUsecase.cs" t="Include" />
             </e>
           </e>
           <e p="UIToolkit" t="Include">

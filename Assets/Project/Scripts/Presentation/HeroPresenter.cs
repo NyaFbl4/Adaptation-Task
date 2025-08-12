@@ -3,30 +3,51 @@ using Presentation.UI;
 using Project.Scripts.Domain.Models;
 using Project.Scripts.UseCases;
 using R3;
+using UnityEngine;
+using VContainer;
+using VContainer.Unity;
 
 namespace Project.Scripts.Presentation
 {
-    public class HeroPresenter : IDisposable
+    public class HeroPresenter : IStartable, IDisposable
     {
-        private readonly IHeroModel _heroModel;
         private readonly HeroView _heroView;
-        private readonly UpgradeHeroUsecase _upgradeHeroUsecase;
-        
+        private readonly IHeroModel _heroModel;
+        private readonly HeroUsecase _heroUsecase;
         private readonly CompositeDisposable _disposable = new();
-
-        public HeroPresenter(IHeroModel heroModel ,HeroView heroView, 
-            UpgradeHeroUsecase upgradeHeroUsecase)
+        
+        [Inject]
+        public HeroPresenter(HeroView heroView, HeroUsecase heroUsecase, IHeroModel heroModel)
         {
-            _heroModel = heroModel;
+            Debug.Log("HeroPresenter");
+            
             _heroView = heroView;
-            _upgradeHeroUsecase = upgradeHeroUsecase;
+            _heroModel = heroModel;
+            _heroUsecase = heroUsecase;
         }
-
-        public void Initialize()
+        
+        public void Start()
         {
-            _upgradeHeroUsecase.LevelUp();
+            SubscribeToEvents();
+            
+            _heroModel.Level.Subscribe(level => _heroView.SetLevel(level));
+            _heroModel.Health.Subscribe(health => _heroView.SetHealth(health));
+            _heroModel.Attack.Subscribe(attack => _heroView.SetAttack(attack));
         }
-
-        public void Dispose() => _disposable.Clear();
+        
+        private void SubscribeToEvents()
+        {
+            _heroView.OnButtonClicked
+                .Subscribe(_ => OnLevelUpButtonClicked())
+                .AddTo(_disposable);
+        }
+        
+        private void OnLevelUpButtonClicked()
+        {
+            Debug.Log("Presenter обработал клик");
+            _heroUsecase.LevelUp();
+        }
+        
+        public void Dispose() => _disposable.Dispose();
     }
 }

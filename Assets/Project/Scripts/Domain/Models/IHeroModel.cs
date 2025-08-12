@@ -1,13 +1,15 @@
-﻿namespace Project.Scripts.Domain.Models
+﻿using R3;
+
+namespace Project.Scripts.Domain.Models
 {
     public interface IHeroModel
     {
-        int Level { get; }
-        int Health { get; }
-        int Attack { get; }
+        ReadOnlyReactiveProperty<int>  Level { get; }
+        ReadOnlyReactiveProperty<int>  Health { get; }
+        ReadOnlyReactiveProperty<int>  Attack { get; }
 
+        public void LevelUp();
         public void AddHealth(int amount);
-
         public void AddAttack(int amount);
     }
 }
