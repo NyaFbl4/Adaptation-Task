@@ -1,4 +1,5 @@
 ﻿using System;
+using MessagePipe;
 using Presentation.UI;
 using Project.Scripts.Domain.Models;
 using Project.Scripts.UseCases;
@@ -10,35 +11,33 @@ namespace Project.Scripts.Presentation
 {
     public sealed class HeroPresenter : IStartable, IDisposable
     {
-        [Inject] private readonly IHeroStatsView _heroView;
+        [Inject] private readonly IHeroStatsView _heroStatsView;
         [Inject] private readonly IHeroModel _heroModel;
-        [Inject] private readonly HeroUsecase _heroUsecase;
+        [Inject] private readonly IHeroUsecase _heroUsecase;
         
         private readonly CompositeDisposable _disposable = new();
-        
-        public HeroPresenter(HeroView heroView, HeroUsecase heroUsecase, IHeroModel heroModel)
-        {
-            _heroView = heroView;
-            _heroModel = heroModel;
-            _heroUsecase = heroUsecase;
-        }
+
+        [Inject] private ISubscriber<Unit> _levelUpSubscriber;
         
         public void Start()
         {
-            SubscribeToEvents();
-            
-            _heroModel.Level.Subscribe(level => _heroView.SetLevel(level));
-            _heroModel.Health.Subscribe(health => _heroView.SetHealth(health));
-            _heroModel.Attack.Subscribe(attack => _heroView.SetAttack(attack));
-        }
-        
-        private void SubscribeToEvents()
-        {
-            _heroView.OnButtonClicked
+            _levelUpSubscriber
                 .Subscribe(_ => OnLevelUpButtonClicked())
                 .AddTo(_disposable);
+            
+            _heroModel.Level
+                .Subscribe(level => _heroStatsView.SetLevel(level))
+                .AddTo(_disposable);
+            
+            _heroModel.Health
+                .Subscribe(health => _heroStatsView.SetHealth(health))
+                .AddTo(_disposable);
+            
+            _heroModel.Attack
+                .Subscribe(attack => _heroStatsView.SetAttack(attack))
+                .AddTo(_disposable);
         }
-        
+
         private void OnLevelUpButtonClicked()
         {
             _heroUsecase.LevelUp();

@@ -15,7 +15,7 @@ namespace Project.Scripts.Domain.Models
 
         public HeroModel(int level, int health, int attack)
         {
-            _level = new ReactiveProperty<int>(level);
+            _level  = new ReactiveProperty<int>(level);
             _health = new ReactiveProperty<int>(health);
             _attack = new ReactiveProperty<int>(attack);
             
@@ -33,6 +33,10 @@ namespace Project.Scripts.Domain.Models
             Level?.Dispose();
             Health?.Dispose();
             Attack?.Dispose();
+            
+            _level?.Dispose();
+            _health?.Dispose();
+            _attack?.Dispose();
         }
     }
 }

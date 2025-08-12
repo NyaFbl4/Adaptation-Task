@@ -2,7 +2,7 @@
 
 namespace Project.Scripts.Domain.Configs
 {
-    [CreateAssetMenu(fileName = "HeroConfig", menuName = "Configs/HeroConfig")]
+    [CreateAssetMenu(fileName = "StartHeroConfig", menuName = "Configs/StartHeroConfig")]
     public class StartHeroConfig : ScriptableObject
     {
         [SerializeField] private int _startLevel;
